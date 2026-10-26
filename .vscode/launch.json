@@ -1,0 +1,34 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "实验1 · 单次调用",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/hello_llm.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "justMyCode": true
+    },
+    {
+      "name": "实验2 · 四种 role",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/hello_llm.py",
+      "args": ["roles"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "justMyCode": true
+    },
+    {
+      "name": "实验3 · 无状态证明",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/hello_llm.py",
+      "args": ["history"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "justMyCode": true
+    }
+  ]
+}
